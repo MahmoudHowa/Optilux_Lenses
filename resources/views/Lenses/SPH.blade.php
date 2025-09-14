@@ -27,7 +27,7 @@
             </div>
         </header>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
+            {{--  @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
@@ -39,20 +39,33 @@
                         @endif
                     @endauth
                 </div>
-            @endif
+            @endif  --}}
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                {{--  <div class="flex justify-center items-center">
-                    <img src="{{ asset('resources/photo/OptiluxLogo.png') }}" alt="Optilux Logo"/ width="40%" height="40%" style="margin-top: 20px">
-                </div>  --}}
                 <div class="flex justify-center items-center">
-                    <img src="{{ asset('resources/photo/Op_See.png') }}" alt="Optilux Logo"/ width="60%" height="60%">
+                    <img src="{{ asset('resources/photo/OptiluxLogo.png') }}" alt=""/ width="40%" height="40%">
                 </div>
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                {{--  <div class="flex justify-center items-center">
+                    <img src="{{ asset('resources/photo/Op_See.png') }}" alt="Optilux Logo"/ width="40%" height="40%" style="margin-top: 20px">
+                </div>  --}}
+                {{--  <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg ">
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
+                </div>  --}}
+                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center">
+                    <img src="{{ asset('resources/photo/SPH1.jpg') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+                    <img src="{{ asset('resources/photo/SPH2.jpg') }}" alt=""/ width="90%" height="30%" style="margin-top: 20px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
+                </div>
+                <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
+                    <a href="https://wa.me/qr/TTSW2EV6WT3NA1" >
+                        <img src="{{ asset('resources/photo/whatsapp.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+                    </a>
+                    <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> اتصل واطلب عدستك من أحد مكاتبنا عبر واتس </h1>
+                </div>
+                <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
+
                 </div>
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                {{--  <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2" >
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0">
                             <div class="flex items-center" style="direction: rtl">
@@ -66,9 +79,10 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
                             <div class="flex items-center" style="direction: rtl">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"/></svg>
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="{{ route('Lenses.SPH') }}" class="text-gray-900 dark:text-white">عـــد ســـات &nbsp; طـــبــيــة</a></div>
                             </div>
 
@@ -80,35 +94,35 @@
 
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                            <div class="flex items-center" style="direction: rtl">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="text-gray-900 dark:text-white">عـــد ســـات  &nbsp; شـــمـــســـيــة</a></div>
                             </div>
 
-                            <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                                <div class="flex items-center" style="direction: rtl">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="text-gray-900 dark:text-white">عـــد ســـات  &nbsp; شـــمـــســـيــة</a></div>
-                                </div>
-
-                                <div class="ml-12">
-                                    <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                                <div class="flex items-center" style="direction: rtl">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">عـــد ســـات مـــضـــغــوطــــة</div>
-                                </div>
-
-                                <div class="ml-12">
-                                    <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
-                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                    </div>
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
+                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
                                 </div>
                             </div>
                         </div>
-                </div>
+
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
+                            <div class="flex items-center" style="direction: rtl">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">عـــد ســـات مـــضـــغــوطــــة</div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
+                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  --}}
 
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
