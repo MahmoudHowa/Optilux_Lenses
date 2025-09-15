@@ -52,15 +52,21 @@
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
                 </div>  --}}
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center">
-                    <img src="{{ asset('resources/photo/SPH1.jpg') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
-                    <img src="{{ asset('resources/photo/SPH2.jpg') }}" alt=""/ width="90%" height="30%" style="margin-top: 20px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
+                    <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/SPH.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
+                    <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/CYL_0.25_2.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
+                    <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/CYL_2.25_3.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
+                    <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/CYL_3.25_4.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
+                    <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/CYL_4.25_6.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
+
+                    {{--  <img src="{{ asset('resources/photo/SPH1.jpg') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+                    <img src="{{ asset('resources/photo/SPH2.jpg') }}" alt=""/ width="90%" height="30%" style="margin-top: 20px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">  --}}
                 </div>
-                <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
+                {{--  <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
                     <a href="https://wa.me/qr/TTSW2EV6WT3NA1" >
                         <img src="{{ asset('resources/photo/whatsapp.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
                     </a>
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> اتصل واطلب عدستك من أحد مكاتبنا عبر واتس </h1>
-                </div>
+                </div>  --}}
                 <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
 
                 </div>

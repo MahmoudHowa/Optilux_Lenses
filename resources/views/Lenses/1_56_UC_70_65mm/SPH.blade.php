@@ -52,8 +52,7 @@
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
                 </div>  --}}
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center">
-                    <img src="{{ asset('resources/photo/SPH1.jpg') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
-                    <img src="{{ asset('resources/photo/SPH2.jpg') }}" alt=""/ width="90%" height="30%" style="margin-top: 20px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
+                    <img src="{{ asset('resources/photo/Degrees/1.56_UC_70_65mm/SPH_1.56_UC_70_65mm_price.png') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
                 </div>
                 <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
                     <a href="https://wa.me/qr/TTSW2EV6WT3NA1" >

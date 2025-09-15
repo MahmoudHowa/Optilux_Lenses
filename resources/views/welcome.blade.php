@@ -23,7 +23,7 @@
     <body class="antialiased dark:bg-gray-900">
         <header class="max-w-6xl mx-auto sm:px-6 lg:px-8 dark:bg-gray-900">
             <div class="flex justify-start items-center">
-                    <img src="{{ asset('resources/photo/OptiluxLogo1.png') }}" alt="Optilux Logo" width="20%" height="20%">
+                    <img src="{{ asset('resources/photo/OptiluxLogo1.png') }}" alt="Optilux Logo" width="15%" height="15%">
             </div>
         </header>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -46,7 +46,7 @@
                     <img src="{{ asset('resources/photo/OptiluxLogo.png') }}" alt="Optilux Logo"/ width="40%" height="40%" style="margin-top: 20px">
                 </div>  --}}
                 <div class="flex justify-center items-center">
-                    <img src="{{ asset('resources/photo/Op_See.png') }}" alt="Optilux Logo"/ width="60%" height="60%">
+                    <img src="{{ asset('resources/photo/OptiluxLogo01.png') }}" alt="Optilux Logo"/ width="40%" height="40%">
                 </div>
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
@@ -57,12 +57,40 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0">
                             <div class="flex items-center" style="direction: rtl">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"/></svg>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="text-gray-900 dark:text-white">عـــد ســـات &nbsp لاصــقــة</a></div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="text-gray-900 dark:text-white">عـــد ســـات &nbsp مضغوطة</a></div>
                             </div>
 
-                            <div class="ml-12">
+                            <div class="ml-14">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
-                                    تتخ هعارخعثصق خهلاقخل خثقلاخ ثقرخثق
+                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development.
+                                </div>
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap" style="margin-top: 85px">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_CM_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">فوتو غري</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.67_HMC_70_75mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">إنتر فلي</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">ضغط عالي</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.67_BCC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">بلوكات كلير</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">ضغط عالي</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.74_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">إنتر فلي</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">ضغط عالي</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">1.74</div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap">
+
                                 </div>
                             </div>
                         </div>
@@ -72,12 +100,53 @@
                                 &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="{{ route('Lenses.SPH') }}" class="text-gray-900 dark:text-white">عـــد ســـات &nbsp; طـــبــيــة</a></div>
                             </div>
 
-                            <div class="ml-12">
+                            <div class="ml-14">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development.
                                 </div>
-                                <div>
-
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="{{ route('Lenses.Store_1_56_UC_70_65mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.56_UC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">بلاستك أبيض</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">إنتر فلي</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_BCC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">بلوكات كلير</div>
+                                    </div>
+                                </div>
+                                {{--  <div class="text-gray-600 dark:text-gray-400 text-sm" style="display: inline-block; text-align: center; margin-left: 10%; padding: 0px; border: 0px">
+                                    <pre style="padding: 0px;"><a href="http://www.google.com" style="display:inline-block; width:40%; text-align:center;  padding:0px; border-radius:15%;"><h2 style="padding: 0px;">بلاستيك أبيض</h2></a>   <a href="http://www.google.com" style="display:inline-block; width:30%; text-align:center; padding: 0px; border-radius:15%;"><h2 style="padding: 0px;">إنتر فلي</h2></a>  <a href="http://www.google.com" style="display:inline-block; width:40%; text-align:center; padding: 0px; border-radius:15%;"><h2 style="padding: 0px;">بلوكات كلير</h2></a></pre>
+                                </div>  --}}
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_UC_55mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.2rem; margin-top: 0px;">بلاستك أبيض</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">قطر 55</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_HMC_55mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.2rem; margin-top: 0px;">بلاستك إنترفلي</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">قطر 55</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_BC_HMC_60mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.2rem; margin-top: 0px;">بلوكات إنترفلي</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">قطر 60</div>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                        <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_PC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.2rem; margin-top: 0px;">بولي كربونات</div>
+                                        <div style="font-size: 1.3rem; margin-top: 0px;">قطر 65-70</div>
+                                    </div>
                                 </div>
                             </div>
                             </div>
@@ -90,7 +159,7 @@
 
                                 <div class="ml-12">
                                     <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                        Including new package releases and tutorials.
                                     </div>
                                 </div>
                             </div>
@@ -98,13 +167,31 @@
                             <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                                 <div class="flex items-center" style="direction: rtl">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">عـــد ســـات مـــضـــغــوطــــة</div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">عـــد ســـات مـــتـــدرجـــــة & مــــزدوجــــة</div>
                                 </div>
 
                                 <div class="ml-12">
                                     <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
-                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
+                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>,
                                     </div>
+                                    <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap">
+                                        <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
+                                            <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/متدرجة_13+3.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
+                                            <div style="font-size: 1.3rem; margin-top: 0px;">إنتر فلي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;بلو كات</div>
+                                            <div style="font-size: 1.3rem; margin-top: 0px;">متدرجة 13+3</div>
+                                        </div>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
+                                            <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/مزدوجة.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
+                                            <div style="font-size: 1.3rem; margin-top: 0px;">إنتر فلي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;بلو كات</div>
+                                            <div style="font-size: 1.3rem; margin-top: 0px;">مـــزدوجــــة</div>
+                                        </div>
+                                        {{--  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div style="display:flex; flex-direction:column; align-items:center; width: 20%;">
+                                            <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.56_BCC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                            <div style="font-size: 1.3rem; margin-top: 0px;">بلوكات كلير</div>
+                                        </div>  --}}
+                                </div>
                                 </div>
                             </div>
                         </div>
