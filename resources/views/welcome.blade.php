@@ -18,6 +18,34 @@
         body {
             font-family: 'Nunito', sans-serif;
         }
+        /* Force dark mode permanently */
+        html {
+            color-scheme: dark;
+        }
+        body {
+            background-color: #1a202c !important;
+        }
+        .bg-white {
+            background-color: #2d3748 !important;
+        }
+        .bg-gray-100 {
+            background-color: #1a202c !important;
+        }
+        .text-gray-900 {
+            color: #fff !important;
+        }
+        .text-gray-600 {
+            color: #cbd5e0 !important;
+        }
+        .text-gray-700 {
+            color: #6b7280 !important;
+        }
+        .text-gray-500 {
+            color: #6b7280 !important;
+        }
+        .border-gray-200 {
+            border-color: #4a5568 !important;
+        }
     </style>
 </head>
 <body class="antialiased dark:bg-gray-900">
@@ -68,7 +96,8 @@
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="{{ route('Lenses.Store_1_56_BCC_70_65mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.56_BCC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
-                                    <div style="font-size: 1.3rem; margin-left: 20px; margin-top: 0px; width: 100px;">بلوكات كلير</div>
+                                    <div style="font-size: 1.3rem; margin-left: 55px; margin-top: 0px; width: 100px;">بلوكات</div>
+                                    <div style="font-size: 1.3rem; margin-left: 75px; margin-top: -8px; width: 100px;">كلير</div>
                                 </div>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
@@ -79,7 +108,8 @@
 
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="{{ route('Lenses.Store_1_56_UC_70_65mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.56_UC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
-                                    <div style="font-size: 1.3rem; margin-left: 12px; margin-top: 0px; width: 110px;">بلاستيك أبيض</div>
+                                    <div style="font-size: 1.3rem; margin-left: 60px; margin-top: 0px; width: 110px;">بلاستيك</div>
+                                    <div style="font-size: 1.3rem; margin-left: 80px; margin-top: -8px; width: 110px;">أبيض</div>
                                 </div>
 
                             </div>
@@ -90,28 +120,28 @@
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="{{ route('Lenses.Store_1_56_UC_55mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.56_UC_55mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px;">بلاستيك</div>
-                                    <div style="font-size: 1.2rem; margin-top: 0px;">أبيض</div>
+                                    <div style="font-size: 1.2rem; margin-top: -8px;">أبيض</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px;">قطر 55</div>
                                 </div>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="{{ route('Lenses.Store_1_56_HMC_55mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.56_HMC_55mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px;">بلاستيك</div>
-                                    <div style="font-size: 1.2rem; margin-top: 0px;">إنترفلي</div>
+                                    <div style="font-size: 1.2rem; margin-top: -8px;">إنترفلي</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px;">قطر 55</div>
                                 </div>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="{{ route('Lenses.Store_1_56_BC_HMC_60mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.56_BC_HMC_60mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px;">بلوكات</div>
-                                    <div style="font-size: 1.2rem; margin-top: 0px;">إنترفلي</div>
+                                    <div style="font-size: 1.2rem; margin-top: -8px;">إنترفلي</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px;">قطر 60</div>
                                 </div>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="{{ route('Lenses.Store_1_59_PC_HMC_70_65mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.56_PC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px;">بولي</div>
-                                    <div style="font-size: 1.2rem; margin-top: 0px;">كربونات</div>
+                                    <div style="font-size: 1.2rem; margin-top: -2px;">كربونات</div>
                                 </div>
 
                             </div>
@@ -129,19 +159,18 @@
                             </div>
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap" style="margin-top: 85px">
 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.67_HMC_70_75mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
-                                    <div style="font-size: 1.2rem; margin-top: 0px; margin-left: 30px; width: 80px;">إنتر فلي</div>
-                                    <div style="font-size: 1.0rem; margin-top: 0px; margin-left: 20px; width: 80px;">ضغط عالي</div>
+                                    <div style="font-size: 1.2rem; margin-top: 0px; margin-left: 10px; width: 80px;">إنتر فلي</div>
+                                    <div style="font-size: 1.0rem; margin-top: 0px; margin-left: 0px; width: 80px;">ضغط عالي</div>
                                 </div>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.67_BCC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px; margin-left: 25px; width: 100px;">بلوكات كلير</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px; margin-left: 20px; width: 80px;">ضغط عالي</div>
                                 </div>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
                                     <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.74_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px;">إنتر فلي</div>

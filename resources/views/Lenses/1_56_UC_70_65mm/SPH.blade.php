@@ -14,6 +14,34 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            /* Force dark mode permanently */
+            html {
+                color-scheme: dark;
+            }
+            body {
+                background-color: #1a202c !important;
+            }
+            .bg-white {
+                background-color: #2d3748 !important;
+            }
+            .bg-gray-100 {
+                background-color: #1a202c !important;
+            }
+            .text-gray-900 {
+                color: #fff !important;
+            }
+            .text-gray-600 {
+                color: #cbd5e0 !important;
+            }
+            .text-gray-700 {
+                color: #6b7280 !important;
+            }
+            .text-gray-500 {
+                color: #6b7280 !important;
+            }
+            .border-gray-200 {
+                border-color: #4a5568 !important;
+            }
         </style>
     </head>
     <body class="antialiased dark:bg-gray-900">

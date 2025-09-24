@@ -15,7 +15,7 @@
     </div>
     &nbsp;&nbsp;&nbsp;
     <div style="display:inline-table; flex-direction:column; align-items:center; width: 18%;">
-        <a href="https://wa.me/qr/TTSW2EV6WT3NA1" >
+        <a href="https://wa.me/message/XVLVJ6YRNQBWG1" >
             <img src="{{ asset('resources/photo/whatsapp.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: inline; margin-left: auto; margin-right: auto;">
         </a>
         <div style="font-size: 1.2rem; margin-top: 0px; color: #868B85;">مكتب دمشق</div>
