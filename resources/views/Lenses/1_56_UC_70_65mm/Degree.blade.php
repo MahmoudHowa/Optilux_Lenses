@@ -21,12 +21,8 @@
         </style>
     </head>
     <body class="antialiased dark:bg-gray-900">
-        <header class="max-w-6xl mx-auto sm:px-6 lg:px-8 dark:bg-gray-900">
-            <div class="flex justify-start items-center">
-                    <img src="{{ asset('resources/photo/OptiluxLogo1.png') }}" alt="Optilux Logo" width="15%" height="15%">
-            </div>
-        </header>
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        @include('Header')
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 py-4 sm:pt-0">
             {{--  @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -51,8 +47,9 @@
                 {{--  <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg ">
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
                 </div>  --}}
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center">
+                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center" style="padding-bottom: 20px; padding-top: 20px">
                     <a href="{{ route('Lenses.Store_1_56_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/SPH.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
+                    <br>
                     <a href="{{ route('Lenses.Store_1_56_UC_70_65mm_CYL_0_25_2_00') }}"><img src="{{ asset('resources/photo/Degrees/CYL_0.25_2.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
                     <a href="{{ route('Lenses.Store_1_56_UC_70_65mm_CYL_2_25_3_00') }}"><img src="{{ asset('resources/photo/Degrees/CYL_2.25_3.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
                     <a href="{{ route('Lenses.Store_1_56_UC_70_65mm_CYL_3_25_4_00') }}"><img src="{{ asset('resources/photo/Degrees/CYL_3.25_4.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
@@ -67,8 +64,10 @@
                     </a>
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> اتصل واطلب عدستك من أحد مكاتبنا عبر واتس </h1>
                 </div>  --}}
-                <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
-
+                <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center" style="width: 100px; margin-top: 10px; margin-left: auto; margin-right: auto;">
+                    <a href="{{ route('Store_Main') }}">
+                        <img src="{{ asset('resources/photo/Back.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 2px; display: block; margin-left: auto; margin-right: auto;">
+                    </a>
                 </div>
 
                 {{--  <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">

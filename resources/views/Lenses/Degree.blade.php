@@ -51,7 +51,7 @@
                 {{--  <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg ">
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
                 </div>  --}}
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center">
+                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center" style="padding-bottom: 20px;">
                     <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/SPH.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
                     <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/CYL_0.25_2.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>
                     <a href="{{ route('Lenses.Store_1_65_UC_70_65mm_SPH') }}"><img src="{{ asset('resources/photo/Degrees/CYL_2.25_3.00.png') }}" alt="Optilux Logo" style="border-radius: 35%; width: 30%; height: 30%;"></a>

@@ -21,11 +21,7 @@
         </style>
     </head>
     <body class="antialiased dark:bg-gray-900">
-        <header class="max-w-6xl mx-auto sm:px-6 lg:px-8 dark:bg-gray-900">
-            <div class="flex justify-start items-center">
-                    <img src="{{ asset('resources/photo/OptiluxLogo1.png') }}" alt="Optilux Logo" width="15%" height="15%">
-            </div>
-        </header>
+        @include('Header')
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             {{--  @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -51,15 +47,10 @@
                 {{--  <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg ">
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
                 </div>  --}}
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center">
+                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center" style="padding-bottom: 20px;">
                     <img src="{{ asset('resources/photo/Degrees/1.56_UC_70_65mm/CYL_3.25_4.00_1.56_UC_70_65mm_price.png') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
                 </div>
-                <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
-                    <a href="https://wa.me/qr/TTSW2EV6WT3NA1" >
-                        <img src="{{ asset('resources/photo/whatsapp.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
-                    </a>
-                    <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> اتصل واطلب عدستك من أحد مكاتبنا عبر واتس </h1>
-                </div>
+                @include('Lenses.FooterLenses')
                 <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
 
                 </div>

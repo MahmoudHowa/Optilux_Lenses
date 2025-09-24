@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('Store_Main', [Controller::class, 'Store_Main'])->name('Store_Main');
+/////////////////////////////
 Route::get('SPH', [Controller::class, 'Store_SPH'])->name('Lenses.SPH');
 Route::get('Store_1_56_UC_70_65mm_Degree', [Controller::class, 'Store_1_56_UC_70_65mm_Degree'])->name('Lenses.Store_1_56_UC_70_65mm_Degree');
 Route::get('Store_1_56_UC_70_65mm_SPH', [Controller::class, 'Store_1_56_UC_70_65mm_SPH'])->name('Lenses.Store_1_56_UC_70_65mm_SPH');
@@ -24,5 +26,57 @@ Route::get('Store_1_56_UC_70_65mm_CYL_0_25_2_00', [Controller::class, 'Store_1_5
 Route::get('Store_1_56_UC_70_65mm_CYL_2_25_3_00', [Controller::class, 'Store_1_56_UC_70_65mm_CYL_2_25_3_00'])->name('Lenses.Store_1_56_UC_70_65mm_CYL_2_25_3_00');
 Route::get('Store_1_56_UC_70_65mm_CYL_3_25_4_00', [Controller::class, 'Store_1_56_UC_70_65mm_CYL_3_25_4_00'])->name('Lenses.Store_1_56_UC_70_65mm_CYL_3_25_4_00');
 Route::get('Store_1_56_UC_70_65mm_CYL_4_25_6_00', [Controller::class, 'Store_1_56_UC_70_65mm_CYL_4_25_6_00'])->name('Lenses.Store_1_56_UC_70_65mm_CYL_4_25_6_00');
-
-
+//////////////////////////////
+Route::get('Store_1_56_HMC_70_65mm_Degree', [Controller::class, 'Store_1_56_HMC_70_65mm_Degree'])->name('Lenses.Store_1_56_HMC_70_65mm_Degree');
+Route::get('Store_1_56_HMC_70_65mm_SPH', [Controller::class, 'Store_1_56_HMC_70_65mm_SPH'])->name('Lenses.Store_1_56_HMC_70_65mm_SPH');
+Route::get('Store_1_56_HMC_70_65mm_CYL_0_25_2_00', [Controller::class, 'Store_1_56_HMC_70_65mm_CYL_0_25_2_00'])->name('Lenses.Store_1_56_HMC_70_65mm_CYL_0_25_2_00');
+Route::get('Store_1_56_HMC_70_65mm_CYL_2_25_3_00', [Controller::class, 'Store_1_56_HMC_70_65mm_CYL_2_25_3_00'])->name('Lenses.Store_1_56_HMC_70_65mm_CYL_2_25_3_00');
+Route::get('Store_1_56_HMC_70_65mm_CYL_3_25_4_00', [Controller::class, 'Store_1_56_HMC_70_65mm_CYL_3_25_4_00'])->name('Lenses.Store_1_56_HMC_70_65mm_CYL_3_25_4_00');
+Route::get('Store_1_56_HMC_70_65mm_CYL_4_25_6_00', [Controller::class, 'Store_1_56_HMC_70_65mm_CYL_4_25_6_00'])->name('Lenses.Store_1_56_HMC_70_65mm_CYL_4_25_6_00');
+/////////////////////////////
+Route::get('Store_1_56_BCC_70_65mm_Degree', [Controller::class, 'Store_1_56_BCC_70_65mm_Degree'])->name('Lenses.Store_1_56_BCC_70_65mm_Degree');
+Route::get('Store_1_56_BCC_70_65mm_SPH', [Controller::class, 'Store_1_56_BCC_70_65mm_SPH'])->name('Lenses.Store_1_56_BCC_70_65mm_SPH');
+Route::get('Store_1_56_BCC_70_65mm_CYL_0_25_2_00', [Controller::class, 'Store_1_56_BCC_70_65mm_CYL_0_25_2_00'])->name('Lenses.Store_1_56_BCC_70_65mm_CYL_0_25_2_00');
+Route::get('Store_1_56_BCC_70_65mm_CYL_2_25_3_00', [Controller::class, 'Store_1_56_BCC_70_65mm_CYL_2_25_3_00'])->name('Lenses.Store_1_56_BCC_70_65mm_CYL_2_25_3_00');
+Route::get('Store_1_56_BCC_70_65mm_CYL_3_25_4_00', [Controller::class, 'Store_1_56_BCC_70_65mm_CYL_3_25_4_00'])->name('Lenses.Store_1_56_BCC_70_65mm_CYL_3_25_4_00');
+Route::get('Store_1_56_BCC_70_65mm_CYL_4_25_6_00', [Controller::class, 'Store_1_56_BCC_70_65mm_CYL_4_25_6_00'])->name('Lenses.Store_1_56_BCC_70_65mm_CYL_4_25_6_00');
+/////////////////////////////
+Route::get('Store_1_56_UC_55mm_Degree', [Controller::class, 'Store_1_56_UC_55mm_Degree'])->name('Lenses.Store_1_56_UC_55mm_Degree');
+Route::get('Store_1_56_UC_55mm_SPH', [Controller::class, 'Store_1_56_UC_55mm_SPH'])->name('Lenses.Store_1_56_UC_55mm_SPH');
+Route::get('Store_1_56_UC_55mm_CYL_0_25_2_00', [Controller::class, 'Store_1_56_UC_55mm_CYL_0_25_2_00'])->name('Lenses.Store_1_56_UC_55mm_CYL_0_25_2_00');
+Route::get('Store_1_56_UC_55mm_CYL_2_25_3_00', [Controller::class, 'Store_1_56_UC_55mm_CYL_2_25_3_00'])->name('Lenses.Store_1_56_UC_55mm_CYL_2_25_3_00');
+Route::get('Store_1_56_UC_55mm_CYL_3_25_4_00', [Controller::class, 'Store_1_56_UC_55mm_CYL_3_25_4_00'])->name('Lenses.Store_1_56_UC_55mm_CYL_3_25_4_00');
+Route::get('Store_1_56_UC_55mm_CYL_4_25_6_00', [Controller::class, 'Store_1_56_UC_55mm_CYL_4_25_6_00'])->name('Lenses.Store_1_56_UC_55mm_CYL_4_25_6_00');
+//////////////////////////////
+Route::get('Store_1_56_HMC_55mm_Degree', [Controller::class, 'Store_1_56_HMC_55mm_Degree'])->name('Lenses.Store_1_56_HMC_55mm_Degree');
+Route::get('Store_1_56_HMC_55mm_SPH', [Controller::class, 'Store_1_56_HMC_55mm_SPH'])->name('Lenses.Store_1_56_HMC_55mm_SPH');
+Route::get('Store_1_56_HMC_55mm_CYL_0_25_2_00', [Controller::class, 'Store_1_56_HMC_55mm_CYL_0_25_2_00'])->name('Lenses.Store_1_56_HMC_55mm_CYL_0_25_2_00');
+Route::get('Store_1_56_HMC_55mm_CYL_2_25_3_00', [Controller::class, 'Store_1_56_HMC_55mm_CYL_2_25_3_00'])->name('Lenses.Store_1_56_HMC_55mm_CYL_2_25_3_00');
+Route::get('Store_1_56_HMC_55mm_CYL_3_25_4_00', [Controller::class, 'Store_1_56_HMC_55mm_CYL_3_25_4_00'])->name('Lenses.Store_1_56_HMC_55mm_CYL_3_25_4_00');
+Route::get('Store_1_56_HMC_55mm_CYL_4_25_6_00', [Controller::class, 'Store_1_56_HMC_55mm_CYL_4_25_6_00'])->name('Lenses.Store_1_56_HMC_55mm_CYL_4_25_6_00');
+//////////////////////////////
+Route::get('Store_1_56_BC_HMC_60mm_Degree', [Controller::class, 'Store_1_56_BC_HMC_60mm_Degree'])->name('Lenses.Store_1_56_BC_HMC_60mm_Degree');
+Route::get('Store_1_56_BC_HMC_60mm_SPH', [Controller::class, 'Store_1_56_BC_HMC_60mm_SPH'])->name('Lenses.Store_1_56_BC_HMC_60mm_SPH');
+Route::get('Store_1_56_BC_HMC_60mm_CYL_0_25_2_00', [Controller::class, 'Store_1_56_BC_HMC_60mm_CYL_0_25_2_00'])->name('Lenses.Store_1_56_BC_HMC_60mm_CYL_0_25_2_00');
+Route::get('Store_1_56_BC_HMC_60mm_CYL_2_25_3_00', [Controller::class, 'Store_1_56_BC_HMC_60mm_CYL_2_25_3_00'])->name('Lenses.Store_1_56_BC_HMC_60mm_CYL_2_25_3_00');
+Route::get('Store_1_56_BC_HMC_60mm_CYL_3_25_4_00', [Controller::class, 'Store_1_56_BC_HMC_60mm_CYL_3_25_4_00'])->name('Lenses.Store_1_56_BC_HMC_60mm_CYL_3_25_4_00');
+Route::get('Store_1_56_BC_HMC_60mm_CYL_4_25_6_00', [Controller::class, 'Store_1_56_BC_HMC_60mm_CYL_4_25_6_00'])->name('Lenses.Store_1_56_BC_HMC_60mm_CYL_4_25_6_00');
+//////////////////////////////
+Route::get('Store_1_59_PC_HMC_70_65mm_Degree', [Controller::class, 'Store_1_59_PC_HMC_70_65mm_Degree'])->name('Lenses.Store_1_59_PC_HMC_70_65mm_Degree');
+Route::get('Store_1_59_PC_HMC_70_65mm_SPH', [Controller::class, 'Store_1_59_PC_HMC_70_65mm_SPH'])->name('Lenses.Store_1_59_PC_HMC_70_65mm_SPH');
+Route::get('Store_1_59_PC_HMC_70_65mm_CYL_0_25_2_00', [Controller::class, 'Store_1_59_PC_HMC_70_65mm_CYL_0_25_2_00'])->name('Lenses.Store_1_59_PC_HMC_70_65mm_CYL_0_25_2_00');
+Route::get('Store_1_59_PC_HMC_70_65mm_CYL_2_25_3_00', [Controller::class, 'Store_1_59_PC_HMC_70_65mm_CYL_2_25_3_00'])->name('Lenses.Store_1_59_PC_HMC_70_65mm_CYL_2_25_3_00');
+Route::get('Store_1_59_PC_HMC_70_65mm_CYL_3_25_4_00', [Controller::class, 'Store_1_59_PC_HMC_70_65mm_CYL_3_25_4_00'])->name('Lenses.Store_1_59_PC_HMC_70_65mm_CYL_3_25_4_00');
+Route::get('Store_1_59_PC_HMC_70_65mm_CYL_4_25_6_00', [Controller::class, 'Store_1_59_PC_HMC_70_65mm_CYL_4_25_6_00'])->name('Lenses.Store_1_59_PC_HMC_70_65mm_CYL_4_25_6_00');
+//////////////////////////////
+Route::get('Store_1_56_CM_HMC_70_65mm_Degree', [Controller::class, 'Store_1_56_CM_HMC_70_65mm_Degree'])->name('Lenses.Store_1_56_CM_HMC_70_65mm_Degree');
+Route::get('Store_1_56_CM_HMC_70_65mm_SPH', [Controller::class, 'Store_1_56_CM_HMC_70_65mm_SPH'])->name('Lenses.Store_1_56_CM_HMC_70_65mm_SPH');
+Route::get('Store_1_56_CM_HMC_70_65mm_CYL_0_25_2_00', [Controller::class, 'Store_1_56_CM_HMC_70_65mm_CYL_0_25_2_00'])->name('Lenses.Store_1_56_CM_HMC_70_65mm_CYL_0_25_2_00');
+Route::get('Store_1_56_CM_HMC_70_65mm_CYL_2_25_3_00', [Controller::class, 'Store_1_56_CM_HMC_70_65mm_CYL_2_25_3_00'])->name('Lenses.Store_1_56_CM_HMC_70_65mm_CYL_2_25_3_00');
+Route::get('Store_1_56_CM_HMC_70_65mm_CYL_3_25_4_00', [Controller::class, 'Store_1_56_CM_HMC_70_65mm_CYL_3_25_4_00'])->name('Lenses.Store_1_56_CM_HMC_70_65mm_CYL_3_25_4_00');
+Route::get('Store_1_56_CM_HMC_70_65mm_CYL_4_25_6_00', [Controller::class, 'Store_1_56_CM_HMC_70_65mm_CYL_4_25_6_00'])->name('Lenses.Store_1_56_CM_HMC_70_65mm_CYL_4_25_6_00');
+//////////////////////////////
+Route::get('Store_Progressive', [Controller::class, 'Store_Progressive_Degree'])->name('Lenses.Store_Progressive');
+//////////////////////////////
+Route::get('Store_Flat_Top', [Controller::class, 'Store_Flat_Top_Degree'])->name('Lenses.Store_Flat_Top');
+//////////////////////////////
