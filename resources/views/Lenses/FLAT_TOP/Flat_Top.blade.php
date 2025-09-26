@@ -76,7 +76,7 @@
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
                 </div>  --}}
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg text-center" style="padding-bottom: 20px;">
-                    <img src="{{ asset('resources/photo/Degrees/FLAT_TOP/FLAT_TOP_BC_HMC&HMC_price.png') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+                    <img src="{{ asset('resources/photo/Degrees/FLAT_TOP/FLAT_TOP_BC_HMC&&HMC_price.png') }}" alt=""/ width="90%" height="50%" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
                 </div>
                 @include('Lenses.FooterLenses')
                 <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center">
