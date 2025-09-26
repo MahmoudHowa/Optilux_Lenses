@@ -94,7 +94,7 @@
                 </div>  --}}
                 <div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center" style="width: 100px; margin-top: 10px; margin-left: auto; margin-right: auto;">
                     <a href="{{ route('Store_Main') }}">
-                        <img src="{{ asset('resources/photo/Back.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 2px; display: block; margin-left: auto; margin-right: auto;">
+                        <img src="{{ asset('resources/photo/Home.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 2px; display: block; margin-left: auto; margin-right: auto;">
                     </a>
                 </div>
 

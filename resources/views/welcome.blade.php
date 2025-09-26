@@ -160,19 +160,19 @@
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap" style="margin-top: 85px">
 
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
-                                    <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.67_HMC_70_75mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                    <a href="{{ route('Lenses.Store_1_67_HMC_70_75mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.67_HMC_70_75mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px; margin-left: 10px; width: 80px;">إنتر فلي</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px; margin-left: 0px; width: 80px;">ضغط عالي</div>
                                 </div>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
-                                    <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.67_BCC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                    <a href="{{ route('Lenses.Store_1_67_BCC_HMC_70_65mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.67_BCC_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px; margin-left: 25px; width: 100px;">بلوكات كلير</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px; margin-left: 20px; width: 80px;">ضغط عالي</div>
                                 </div>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div style="display:flex; flex-direction:column; align-items:center; width: 18%;">
-                                    <a href="http://www.google.com"><img src="{{ asset('resources/photo/LensesType/1.74_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
+                                    <a href="{{ route('Lenses.Store_1_74_HMC_70_75mm_Degree') }}"><img src="{{ asset('resources/photo/LensesType/1.74_HMC_70_65mm.png') }}" alt="Optilux Logo" style="border-radius: 50%; width: 100%; height: auto;"></a>
                                     <div style="font-size: 1.2rem; margin-top: 0px;">إنتر فلي</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px; margin-left: 15px; width: 80px;">ضغط عالي</div>
                                     <div style="font-size: 1.0rem; margin-top: 0px; margin-left: 45px; width: 80px;">1.74</div>

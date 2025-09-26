@@ -30,7 +30,7 @@
 
     <div>
         <a href="{{ route('Store_Main') }}">
-            <img src="{{ asset('resources/photo/Back.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+            <img src="{{ asset('resources/photo/Home.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
         </a>
     </div>
 </div>
