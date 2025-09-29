@@ -234,4 +234,24 @@ class Controller extends BaseController
     public function Store_1_74_HMC_70_75mm_CYL_4_25_6_00(){
         return view('Lenses.1_74_HMC_70_75mm.CYL_4_25_6_00');
     }
+     //    CR39_sunlens_75mm_base6_HMC
+    public function Store_CR39_sunlens_75mm_base6_HMC(){
+        return view('Lenses.SunLens.CR39_sunlens_75mm_base6_HMC.CR39_sunlens_75mm_base6_HMC');
+    }
+    //    CR39_sunlens_75mm_base2_HMC
+    public function Store_CR39_sunlens_75mm_base2_HMC(){
+        return view('Lenses.SunLens.CR39_sunlens_75mm_base2_HMC.CR39_sunlens_75mm_base2_HMC');
+    }
+    //    CR39_polarized_80mm_base6_HMC
+    public function Store_CR39_polarized_80mm_base6_HMC(){
+        return view('Lenses.SunLens.CR39_polarized_80mm_base6_HMC.CR39_polarized_80mm_base6_HMC');
+    }
+    //    1_523_mineral_sunlens_70mm_base6_HMC
+    public function Store_1_523_mineral_sunlens_70mm_base6_HMC(){
+        return view('Lenses.SunLens.1_523_mineral_sunlens_70mm_base6_HMC.1_523_mineral_sunlens_70mm_base6_HMC');
+    }
+    //    1_523_mineral_polarized_70mm_base6_HMC
+    public function Store_1_523_mineral_polarized_70mm_base6_HMC(){
+        return view('Lenses.SunLens.1_523_mineral_polarized_70mm_base6_HMC.1_523_mineral_polarized_70mm_base6_HMC');
+    }
 }

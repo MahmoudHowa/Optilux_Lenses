@@ -101,3 +101,13 @@ Route::get('Store_Progressive', [Controller::class, 'Store_Progressive_Degree'])
 //////////////////////////////
 Route::get('Store_Flat_Top', [Controller::class, 'Store_Flat_Top_Degree'])->name('Lenses.Store_Flat_Top');
 //////////////////////////////
+Route::get('Store_CR39_sunlens_75mm_base6_HMC', [Controller::class, 'Store_CR39_sunlens_75mm_base6_HMC'])->name('Lenses.Store_CR39_sunlens_75mm_base6_HMC');
+//////////////////////////////
+Route::get('Store_CR39_sunlens_75mm_base2_HMC', [Controller::class, 'Store_CR39_sunlens_75mm_base2_HMC'])->name('Lenses.Store_CR39_sunlens_75mm_base2_HMC');
+//////////////////////////////
+Route::get('Store_CR39_polarized_80mm_base6_HMC', [Controller::class, 'Store_CR39_polarized_80mm_base6_HMC'])->name('Lenses.CR39_polarized_80mm_base6_HMC');
+//////////////////////////////
+Route::get('Store_1_523_mineral_sunlens_70mm_base6_HMC', [Controller::class, 'Store_1_523_mineral_sunlens_70mm_base6_HMC'])->name('Lenses.1_523_mineral_sunlens_70mm_base6_HMC');
+//////////////////////////////
+Route::get('Store_1_523_mineral_polarized_70mm_base6_HMC', [Controller::class, 'Store_1_523_mineral_polarized_70mm_base6_HMC'])->name('Lenses.1_523_mineral_polarized_70mm_base6_HMC');
+//////////////////////////////

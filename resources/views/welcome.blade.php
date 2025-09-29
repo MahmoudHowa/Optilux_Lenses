@@ -192,14 +192,51 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
-                                    Including new package releases and tutorials.
+                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>,
+                                </div>
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
+                                        <a href="{{ route('Lenses.Store_CR39_sunlens_75mm_base6_HMC') }}"><img src="{{ asset('resources/photo/Degrees/Sunlens_Polarized/CR39_sunlens_75mm_base6_HMC/CR39_sunlens_75mm_base6_HMC.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">شمسية, باز6, مع إنترفلي داخلي</div>
+                                        <div style="font-size: 1.1rem; margin-top: -5px; color: #4A5568">-----------------------------</div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
+                                        <a href="{{ route('Lenses.Store_CR39_sunlens_75mm_base2_HMC') }}"><img src="{{ asset('resources/photo/Degrees/Sunlens_Polarized/CR39_sunlens_75mm_base2_HMC/CR39_sunlens_75mm_base2_HMC.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">شمسية, باز2, مع إنترفلي داخلي</div>
+                                        <div style="font-size: 1.1rem; margin-top: -5px; color: #4A5568">-----------------------------</div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
+                                        <a href="{{ route('Lenses.CR39_polarized_80mm_base6_HMC') }}"><img src="{{ asset('resources/photo/Degrees/Sunlens_Polarized/CR39_polarized_80mm_base6_HMC/CR39_polarized_80mm_base6_HMC.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">شمسية باز6, بولارايز</div>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">مع إنترفلي داخلي</div>
+                                        <div style="font-size: 1.1rem; margin-top: -5px; color: #4A5568">-----------------------------</div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
+                                        <a href="{{ route('Lenses.1_523_mineral_sunlens_70mm_base6_HMC') }}"><img src="{{ asset('resources/photo/Degrees/Sunlens_Polarized/1_523_mineral_sunlens_70mm_base6_HMC/1_523_mineral_sunlens_70mm_base6_HMC.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">شمسية زجاجية, باز6</div>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">قطر 70, مع إنترفلي داخلي</div>
+                                        <div style="font-size: 1.1rem; margin-top: -5px; color: #4A5568">-----------------------------</div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
+                                    <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
+                                        <a href="{{ route('Lenses.1_523_mineral_polarized_70mm_base6_HMC') }}"><img src="{{ asset('resources/photo/Degrees/Sunlens_Polarized/1_523_mineral_polarized_70mm_base6_HMC/1_523_mineral_polarized_70mm_base6_HMC.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">شمسية زجاجية, بولارايز, باز6</div>
+                                        <div style="font-size: 1.1rem; margin-top: 0px;">قطر70, مع إنترفلي داخلي</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                             <div class="flex items-center" style="direction: rtl">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">عــد ســات مـتــدرجــة & مــزدوجــة</div>
                             </div>
 
@@ -207,11 +244,12 @@
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
                                     Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>,
                                 </div>
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap" style="margin-top: 30px;">
                                     <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
                                         <a href="{{ route('Lenses.Store_Progressive') }}"><img src="{{ asset('resources/photo/LensesType/متدرجة_13+3.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
                                         <div style="font-size: 1.0rem; margin-top: 0px;">إنتر فلي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;بلو كات</div>
                                         <div style="font-size: 1.3rem; margin-top: 0px;">متدرجة 3+13</div>
+                                        <div style="font-size: 1.1rem; margin-top: 30px; color: #4A5568">-----------------------------</div>
                                     </div>
 
                                     {{--  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -220,7 +258,7 @@
                                         <div style="font-size: 1.3rem; margin-top: 0px;">بلوكات كلير</div>
                                     </div>  --}}
                                 </div>
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap" style="margin-top: 40px;">
                                     <div style="display:flex; flex-direction:column; align-items:center; width: 80%;">
                                         <a href="{{ route('Lenses.Store_Flat_Top') }}"><img src="{{ asset('resources/photo/LensesType/مزدوجة.png') }}" alt="Optilux Logo" style="border-radius: 10%; width: 100%; height: auto;"></a>
                                         <div style="font-size: 1.0rem; margin-top: 0px;">إنتر فلي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;بلو كات</div>
