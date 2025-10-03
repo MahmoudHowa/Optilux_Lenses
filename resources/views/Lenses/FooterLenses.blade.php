@@ -29,8 +29,11 @@
     </div>
 
     <div>
-        <a href="{{ route('Store_Main') }}">
+        <a href="{{ route('Store_Main') }}" style="display:inline-table; flex-direction:column; align-items:center; width: 8%;">
             <img src="{{ asset('resources/photo/Home.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+        </a>
+        <a href="javascript:history.back()" style="display:inline-table; flex-direction:column; align-items:center; width: 8%;">
+            <img src="{{ asset('resources/photo/Back.svg') }}" alt=""/ width="50px" height="50px" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
         </a>
     </div>
 </div>
