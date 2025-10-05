@@ -111,3 +111,15 @@ Route::get('Store_1_523_mineral_sunlens_70mm_base6_HMC', [Controller::class, 'St
 //////////////////////////////
 Route::get('Store_1_523_mineral_polarized_70mm_base6_HMC', [Controller::class, 'Store_1_523_mineral_polarized_70mm_base6_HMC'])->name('Lenses.1_523_mineral_polarized_70mm_base6_HMC');
 //////////////////////////////
+Route::get('Store_Cut_Lenses', [Controller::class, 'Store_Cut_Lenses'])->name('Accessories.Store_Cut_Lenses');
+//////////////////////////////
+Route::get('Store_Acc_p_1', [Controller::class, 'Store_Acc_p_1'])->name('Accessories.Store_Acc_p_1');
+//////////////////////////////
+Route::get('Store_Acc_p_2', [Controller::class, 'Store_Acc_p_2'])->name('Accessories.Store_Acc_p_2');
+//////////////////////////////
+Route::get('Store_Acc_p_3', [Controller::class, 'Store_Acc_p_3'])->name('Accessories.Store_Acc_p_3');
+//////////////////////////////
+Route::get('Store_Acc_p_4', [Controller::class, 'Store_Acc_p_4'])->name('Accessories.Store_Acc_p_4');
+//////////////////////////////
+Route::get('Store_Acc_p_5', [Controller::class, 'Store_Acc_p_5'])->name('Accessories.Store_Acc_p_5');
+//////////////////////////////

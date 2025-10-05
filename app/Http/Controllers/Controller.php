@@ -254,4 +254,24 @@ class Controller extends BaseController
     public function Store_1_523_mineral_polarized_70mm_base6_HMC(){
         return view('Lenses.SunLens.1_523_mineral_polarized_70mm_base6_HMC.1_523_mineral_polarized_70mm_base6_HMC');
     }
+    //    Cut_Lenses
+    public function Store_Cut_Lenses(){
+        return view('Accessories.Cut_Lenses');
+    }
+    //    Accessories
+    public function Store_Acc_p_1(){
+        return view('Accessories.Accessories_Pages.Acc_p_1');
+    }
+    public function Store_Acc_p_2(){
+        return view('Accessories.Accessories_Pages.Acc_p_2');
+    }
+    public function Store_Acc_p_3(){
+        return view('Accessories.Accessories_Pages.Acc_p_3');
+    }
+    public function Store_Acc_p_4(){
+        return view('Accessories.Accessories_Pages.Acc_p_4');
+    }
+    public function Store_Acc_p_5(){
+        return view('Accessories.Accessories_Pages.Acc_p_5');
+    }
 }

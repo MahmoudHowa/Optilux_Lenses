@@ -73,7 +73,7 @@
                 <img src="{{ asset('resources/photo/OptiluxLogo01.png') }}" alt="Optilux Logo" width="55%" height="55%">
             </div>
             <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg" style="margin-top: 1rem;">
-                <h1 style="color: #9E5727; font-size: 20px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
+                <h1 style="color: #9E5727; font-size: 25px; font-weight: bold;" class="text-center"> <marquee behavior="scroll" direction="right" loop="infinite">أهـــــلاً وســـــهـــــلاً بــــكـــم فــــي شـــــركــــة أوبـــتـــيـــفـــا للــــبــــصــــريـــات ذات الـــمـــســـؤولـــيـــة الـــمــــحـــدودة</marquee> </h1>
             </div>
 
             <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg" style="margin-top: 0.5rem;">
@@ -81,11 +81,11 @@
                     <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0">
                         <div class="flex items-center" style="direction: rtl">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"/></svg>
-                            &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="{{ route('Lenses.SPH') }}" class="text-gray-900 dark:text-white">عـــد ســـات &nbsp; طـــبــيــة</a></div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><h3>عـــد ســـات &nbsp; طـــبــيــة</h3></div>
                         </div>
 
                         <div class="ml-14">
-                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%; margin-top: 25px">
                                 {{--  Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development.  --}}
                             </div>
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center items-start gap-4 flex-wrap">
@@ -155,7 +155,7 @@
                     <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
                         <div class="flex items-center" style="direction: rtl">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"/></svg>
-                            &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="text-gray-900 dark:text-white">عـــد ســـات &nbsp; طــبــيــة &nbsp مضغوطة</a></div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><h3>عـــد ســـات &nbsp; طــبــيــة &nbsp مضغوطة</h3></div>
                         </div>
 
                         <div class="ml-14">
@@ -194,11 +194,11 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                             <div class="flex items-center" style="direction: rtl">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="text-gray-900 dark:text-white">عـــد ســـات  &nbsp; شـــمـــســـيــة</a></div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold"><h3>عـــد ســـات  &nbsp; شـــمـــســـيــة</h3></div>
                             </div>
 
                             <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm" style="direction: rtl; margin-right: 11%; margin-top: 25px;">
                                     {{--  Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>,  --}}
                                 </div>
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm flex justify-center; align-items:center; gap-4 flex-wrap">
@@ -246,7 +246,7 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                             <div class="flex items-center" style="direction: rtl">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">عــد ســات مـتــدرجــة & مــزدوجــة</div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><h3>عــد ســات مـتــدرجــة & مــزدوجــة</h3></div>
                             </div>
 
                             <div class="ml-12">
@@ -283,10 +283,18 @@
                         </div>
                     </div>
             </div>
-            <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg" style="margin-top: 10px;">
-                <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center">
-                    إكسسوارات
-                </h1>
+            <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg" style="margin-top: 10px; padding: 10px; text-align: center;">
+                <a href="{{ route('Accessories.Store_Cut_Lenses') }}">
+                    <h1 style="color: #9E5727; font-size: 24px; font-weight: bold; display:inline;" class="text-center">
+                        قــص عــدســات
+                    </h1>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #4F5A6E;">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="{{ route('Accessories.Store_Acc_p_1') }}">
+                    <h1 style="color: #9E5727; font-size: 24px; font-weight: bold; display:inline;" class="text-center">
+                        إكـسـسـوارات&nbsp;&nbsp;&nbsp;
+                    </h1>
+                </a>
             </div>
             @include('.Footer')
 
