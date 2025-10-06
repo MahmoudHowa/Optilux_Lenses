@@ -286,13 +286,13 @@
             <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg" style="margin-top: 10px; padding: 10px; text-align: center;">
                 <a href="{{ route('Accessories.Store_Cut_Lenses') }}">
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold; display:inline;" class="text-center">
-                        قــص عــدســات
+                        قـص عــدسـات
                     </h1>
                 </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #4F5A6E;">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #4F5A6E;">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="{{ route('Accessories.Store_Acc_p_1') }}">
                     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold; display:inline;" class="text-center">
-                        إكـسـسـوارات&nbsp;&nbsp;&nbsp;
+                        إكــســســوارات
                     </h1>
                 </a>
             </div>
