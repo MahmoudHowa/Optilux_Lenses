@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Optilux Lenses</title>
+    <link rel="icon" type="image/png" href="{{ asset('resources/photo/OptiluxLogo1.png') }}">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -246,7 +247,7 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                             <div class="flex items-center" style="direction: rtl">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><image href="resources/photo/lens.svg" width="24" height="24"></svg>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><h3>عــد ســات مـتــدرجــة & مــزدوجــة</h3></div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><h3>عــد سـات مـتـدرجـة & مــزدوجـة</h3></div>
                             </div>
 
                             <div class="ml-12">

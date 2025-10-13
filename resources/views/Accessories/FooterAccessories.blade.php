@@ -1,7 +1,7 @@
 
 
 
-<div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center" style="margin-top: 10px;">
+<div class="mt-8 bg-white dark:bg-gray-800  overflow-hidden shadow sm:rounded-lg text-center" style="margin-top: 10px; padding-bottom: 10px;">
     <h1 style="color: #9E5727; font-size: 24px; font-weight: bold;" class="text-center">اتصل واطلب من أحد مكاتبنا عبر واتساب</h1>
     <div style="display:inline-table; flex-direction:column; align-items:center; width: 18%;">
         <a href="" >
