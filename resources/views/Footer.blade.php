@@ -23,7 +23,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
             {{--  Prog and Support by <br> Eng.Mahmoud M Howa <br>  --}}
-            <strong>Copyright &copy; 2025.</strong>
+            <strong>Copyright &copy; 2026.</strong>
         </div>
     </div>
 </footer>
